@@ -13,7 +13,7 @@ paramList.forEach((current, index) => {
 });
 
 app.get("/:param1", (req, res) => {
-  console.dir(":param1 " + req.params.param1);
+  
     res.send(`${req.params.param1}`);
 });
 
